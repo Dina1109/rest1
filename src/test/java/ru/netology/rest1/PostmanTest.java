@@ -19,7 +19,7 @@ public class PostmanTest {
 //// Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("data"))
+                .body("data", equalTo("some data"))
         ;
 //        given()
 //                .baseUri("https://postman-echo.com")
